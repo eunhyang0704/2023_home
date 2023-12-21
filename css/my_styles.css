@@ -1,8 +1,54 @@
 #projects {
   margin-top: 150px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .custom-container {
   margin-bottom: 50px;
+}
+
+.card {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+.card img {
+    margin-top: 30px;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+ .content {
+     padding: 20px;
+ }
+
+h1, p {
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.social-links a {
+
+    color: #333;
+}
+.image-container {
+            width: 100%; /* 부모 요소에 대한 100% 너비 설정 */
+            overflow: hidden; /* 너비를 벗어나는 부분을 감춤 */
+        }
+
+.image-container img {
+    width: 100%; /* 이미지를 부모 요소의 100% 너비로 설정하여 꽉 차게 표시 */
+    height: auto; /* 가로 비율에 맞게 높이를 자동 조절 */
 }
